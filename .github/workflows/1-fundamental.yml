@@ -11,6 +11,7 @@ on:
   push:
     branches:
       - main # main
+      - dev
       - 'jr15-*' # * wildcards except /
       - 'feat/**' # ** wildcards, allowing /
     #paths-ignore:
