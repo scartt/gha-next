@@ -16,6 +16,7 @@ on:
       - 'feat/**' # ** wildcards, allowing /
     #paths-ignore:
       #- '.github/workflows/*'
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
